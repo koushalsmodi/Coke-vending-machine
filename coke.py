@@ -38,3 +38,4 @@ def amount_due():
                print('Error invalid coin entered')
      print('Change Owed: ', change)
      
+main()
