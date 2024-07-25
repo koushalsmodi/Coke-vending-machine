@@ -28,14 +28,16 @@ def amount_due():
      change = 50
 
      while change != 0:
+          
           insert = int(input('Insert Coin: '))
           if insert in [25, 10, 5]:
                change -= insert
                print('Amount Due: ', change)
-
           else:
                print('Amount Due: ', change)
                print('Error invalid coin entered')
      print('Change Owed: ', change)
-     
 main()
+          
+          
+     
